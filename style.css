@@ -1,0 +1,106 @@
+html {
+    background-color: rgb(255, 252, 208);
+  }
+  
+  
+  body {
+    height: 100%;
+    background: rgb(255, 252, 208);
+    margin: 175px auto;
+    width: 900px;
+    border-radius: 10px;
+  }
+  
+  
+  h1 {
+    margin: 0;
+    margin-top: -1px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  
+  p {
+    font: bold;
+    font-size: 15px;
+  }
+  
+  
+  #calcdiv {
+    background-color: rgb(240, 235, 164);
+    margin: 1px auto;
+    line-height: 90px;
+    padding: 15px auto;
+    font-size: larger;
+    border-radius: 10px;
+    color:black
+  }
+  
+  
+  button {
+    padding: 10px 70px;
+    border: 2px solid black;
+    background: rgb(240, 235, 164);
+    border-radius: 20px;
+    font-variant: small-caps;
+    text-align: center;
+    margin: 15px;
+  }
+  button:hover {
+    cursor: pointer;
+    text-align: center;
+  }
+  
+input[type=number]:focus{
+  border: 5px black solid
+}
+input[type=number]{
+  padding:10px 5px;
+  background-color: rgb(240, 235, 164);
+  border-radius: 5px;
+}
+  #Para1 {
+    text-align: center;
+    font-size: larger;
+  }
+  
+  
+  #inputdiv {
+    font-size: 30px;
+    background-color: rgb(44, 138, 155);
+    margin: 45px;
+    padding: 20px;
+    border-radius: 20px ;
+  }
+  
+  #weightdiv {
+    font-size: 30px;
+    background-color: rgb(74, 179, 130);
+    margin: 40px;
+    padding: 20px;
+    padding: 60px auto;
+    border-radius: 20px ;
+  }
+
+  #redtag{
+    color: red;
+  }
+  #inputdiv, #weightdiv{
+    display: inline-block
+  }
+
+  p{
+    color:white
+  }
+
+  #ovrall{
+    background-color: rgb(240, 235, 164);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    color: black;
+  }
